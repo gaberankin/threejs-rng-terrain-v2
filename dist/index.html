@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<!-- <title>My first Three.js app</title> -->
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+			#form {
+				/* position: absolute; */
+				/* top: 0; */
+				/* left: 0; */
+				width: 300px;
+				float: left;
+				background: rgba(128, 128, 0, 0.5);
+			}
+			#form-padding {
+				padding: 15px;
+			}
+			#viewport {
+				margin-left: 300px;
+			}
+			#coords {
+				background-color: lightblue;
+			}
+			#coords span {
+				width:3em;
+				overflow:hidden;
+				display: inline-block;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="form">
+			<div id="form-padding">
+				<fieldset>
+					<legend>Camera</legend>
+					<span id="coords">
+						x: <span id="camera-x"></span><br />
+						y: <span id="camera-y"></span><br />
+						z: <span id="camera-z"></span>
+					</span>
+				</fieldset>
+			</div>
+			this is a test by gabe rankin
+		</div>
+		<div id="viewport"></div>
+		<script src="bundle.js"></script>
+		<script>
+			// Our Javascript will go here.
+		</script>
+	</body>
+</html>
